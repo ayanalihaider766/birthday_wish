@@ -29,3 +29,109 @@
 
       <svg class="string-svg" id="stringSvg" viewBox="0 0 200 260" preserveAspectRatio="none" aria-hidden="true">
         <path id="stringPath" d="M100,0 L100,80" />
+      </svg>
+
+      <div class="handle" id="handle" role="button" tabindex="0" aria-label="Pull the heart down to open your gift">
+        <span class="handle__heart">❤</span>
+      </div>
+    </div>
+
+    <div class="burst-layer" id="burstLayer" aria-hidden="true"></div>
+  </section>
+
+  <!-- ============ MAIN SITE ============ -->
+  <main id="site" hidden>
+
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero__particles" id="heroParticles"></div>
+      <p class="hero__reveal hero__eyebrow" data-reveal>for the girl who ruined every other version of my future</p>
+      <h1 class="hero__title" data-reveal>Nida <span class="heart-inline">❤️</span></h1>
+      <p class="hero__subtitle" data-reveal>My Baby · My Shehzadi · My Munnii · My Cute Wife</p>
+      <p class="hero__body" data-reveal>Somewhere between all the conversations, smiles, fights and memories… you became my favorite part of life.</p>
+      <div class="hero__scroll" aria-hidden="true"><span></span></div>
+    </section>
+
+    <!-- LOVE CARDS -->
+    <section class="section love-section">
+      <h2 class="section__title" data-reveal>Things I Love About You <span class="heart-inline">❤️</span></h2>
+      <div class="love-grid" id="loveGrid"></div>
+    </section>
+
+    <!-- OUR STORY -->
+    <section class="section story-section">
+      <h2 class="section__title" data-reveal>Our Story</h2>
+      <p class="story-date" data-reveal>23 February 2025 <span class="heart-inline">❤️</span></p>
+      <p class="story-tagline" data-reveal>The day our story began.</p>
+      <div class="timeline" id="timeline"></div>
+    </section>
+
+    <!-- LOVE LETTER -->
+    <section class="section letter-section">
+      <h2 class="section__title" data-reveal>A Letter For My Nida <span class="heart-inline">💌</span></h2>
+      <div class="envelope" id="envelope" role="button" tabindex="0" aria-label="Open the letter">
+        <div class="envelope__body">
+          <div class="envelope__flap"></div>
+          <div class="envelope__seal">❤</div>
+          <p class="envelope__label">tap to open</p>
+        </div>
+        <div class="letter" id="letter">
+          <p class="letter__text" id="letterText"></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- TIME COUNTER -->
+    <section class="section counter-section">
+      <h2 class="section__title" data-reveal>Time With You</h2>
+      <p class="counter-sub" data-reveal>and counting, forever...</p>
+      <div class="counter-grid" data-reveal>
+        <div class="counter-card">
+          <span class="counter-num" id="cDays">0</span>
+          <span class="counter-label">days</span>
+        </div>
+        <div class="counter-card">
+          <span class="counter-num" id="cHours">0</span>
+          <span class="counter-label">hours</span>
+        </div>
+        <div class="counter-card">
+          <span class="counter-num" id="cMinutes">0</span>
+          <span class="counter-label">minutes</span>
+        </div>
+        <div class="counter-card">
+          <span class="counter-num" id="cSeconds">0</span>
+          <span class="counter-label">seconds</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- MEMORY WALL -->
+    <section class="section memory-section">
+      <h2 class="section__title" data-reveal>Memory Wall</h2>
+      <p class="memory-sub" data-reveal>tap a memory to unfold it</p>
+      <div class="memory-wall" id="memoryWall"></div>
+    </section>
+
+    <!-- FINAL SECTION -->
+    <section class="final-section" id="finalSection">
+      <div class="final-heart-wrap" aria-hidden="true">
+        <div class="css-heart css-heart--final"><span></span><span></span></div>
+      </div>
+      <div class="final-lines" id="finalLines">
+        <p class="final-line" data-line>Nida…</p>
+        <p class="final-line" data-line>If I had to choose again…</p>
+        <p class="final-line final-line--pause" data-line>&nbsp;</p>
+        <p class="final-line final-line--big" data-line>I would still choose you. ❤️</p>
+        <p class="final-line" data-line>Again.</p>
+        <p class="final-line" data-line>And again.</p>
+        <p class="final-line" data-line>And again.</p>
+        <p class="final-line final-line--huge" data-line>I LOVE YOU, NIDA ❤️</p>
+      </div>
+      <div class="final-particles" id="finalParticles" aria-hidden="true"></div>
+    </section>
+
+  </main>
+
+<script src="script.js"></script>
+</body>
+</html>
