@@ -203,6 +203,10 @@
           { transform: `translate(${dx - 50}%, ${dy - 50}%) scale(1)`, opacity: 0 },
         ],
         { duration: 1000 + Math.random() * 500, easing: "cubic-bezier(0.16,1,0.3,1)" }
+      );
+    }
+  }
+
   function openGift() {
     if (opened) return;
     opened = true;
